@@ -199,11 +199,11 @@ main {
     margin-bottom: 20px;
 }
 
-    .exp-title {
-        color: #474747;
-        font-weight: 700;
-        font-size: 30px;
-    }
+.exp-title {
+    color: #474747;
+    font-weight: 700;
+    font-size: 30px;
+}
 
 .edu-details-items {
     margin-top: 30px;
@@ -216,11 +216,45 @@ main {
     margin-bottom: 30px;
 }
 
-.edu-details {
-   
-}
+.edu-details {}
 
 .cv-btn {
     margin-top: 50px;
+    margin-bottom: 113px;
     text-align: center;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding-top: 130px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: left;
+    margin-bottom: 20px;
+    
+}
+
+.connect-details {
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.contact input[type="text"], [type="email"], textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
 }
