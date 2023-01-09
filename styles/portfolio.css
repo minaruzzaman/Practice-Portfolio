@@ -18,6 +18,20 @@
     font-size: 20px;
 }
 
+.contact-btn {
+    width: 160px;
+    height: 64px;
+    margin-left: 30px;
+    background: #FFF8F3;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #FD6E0A;
+    padding: 18px 23px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+}
+
 .header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -231,7 +245,7 @@ main {
     padding-top: 130px;
     padding-left: 200px;
     padding-right: 200px;
-    
+
 }
 
 .contact-title {
@@ -239,7 +253,7 @@ main {
     font-size: 35px;
     text-align: left;
     margin-bottom: 20px;
-    
+
 }
 
 .connect-details {
@@ -248,7 +262,9 @@ main {
     margin-bottom: 30px;
 }
 
-.contact input[type="text"], [type="email"], textarea {
+.contact input[type="text"],
+[type="email"],
+textarea {
     margin-bottom: 24px;
     border: 0;
     width: 100%;
